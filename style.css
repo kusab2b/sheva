@@ -1,0 +1,112 @@
+﻿*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: karma;
+    src: url(fonts/Karma-Medium.ttf);
+}
+@font-face {
+    font-family: jack;
+    src: url(fonts/JacquesFrancois-Regular.ttf);
+}
+@font-face {
+    font-family: kamer;
+    src: url(fonts/Kameron-Regular.ttf);
+}
+
+.window{
+    background-color: black;
+    height: 1050px;
+}
+.container{
+    margin-top: 50px;
+}
+.link1{
+    font-size: 32px;
+    color: #ffffff;
+ font-family: karma;
+}
+.collap{
+    
+    margin-left: 230px;
+    column-gap: 50px;
+    
+}
+.jelly{
+    font-family: jack;
+    font-size: 190px;
+    text-align: center;
+    margin-top: 120px;
+    background: linear-gradient(to right,#FF004D, #0A417D , #DE1BA8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+}
+.jelfish{
+    width: 800px;
+    margin-left: 220px;
+    margin-top: 70px;
+    font-size: 29px;
+    position: absolute;
+    z-index: 3;
+    background: linear-gradient(#ffffff,#FFFFFF00);
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+    font-family: kamer;
+    
+}
+.redmore{
+    
+    font-size: 20px;
+    color: #ffffff;
+}
+.texsite{
+display: flex;
+align-items: normal;
+column-gap: 40px;
+margin-left: 220px;
+margin-top: 300px;
+}
+.join{
+    font-size: 32px;
+    font-family: karma;
+    color: #ffffff;
+    margin-left: 30px;
+}
+.subscrib{
+    font-size: 26px;
+    font-family: karma;
+    color: #ffffff;
+}
+.footer{
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    align-items: last baseline;
+    margin-top: 100px;
+    column-gap: 650px;
+    margin-left: 50px;
+   
+}
+.img3{
+    position: absolute;
+    width: 250px;
+    top: 15px;
+    margin-left: 280px;
+   
+}
+.img2{
+    width: 650px;
+     position: absolute;
+     top: 100px;
+     left: 540px;
+     z-index: 2;
+ }
+
+.img1{
+    height: 250px;
+    position: absolute;
+    top: 800px;
+    
+}
+
+
